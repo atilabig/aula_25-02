@@ -1,0 +1,101 @@
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 6px;
+}
+th, th:nth-child(even) {
+  background-color: #dddddd;
+}
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+</style>
+</head>
+<header>Controle Pessoal Financeiro</header>
+<body>
+
+<h2>Registros</h2>
+
+<table>
+  <tr>
+    <th>Descrição</th>
+    <th>Categoria</th>
+    <th>Data</th>
+    <th>Valor</th>
+    <th>Saldo</th>
+  </tr>
+  <tr>
+    <td>Crédito Salário</td>
+    <td>Crédito</td>
+    <td>05/10/2017</td>
+    <td>1500.00</td>
+    <td>1500.00</td>
+  </tr>
+  <tr>
+    <td>Pãozinho</td>
+    <td>Débito</td>
+    <td>06/10/2017</td>
+    <td>-7.50</td>
+    <td>1492.50</td>
+  </tr>
+  <tr>
+    <td>Conta de Luz</td>
+    <td>Débito</td>
+    <td>08/10/2017</td>
+    <td>-102.90</td>
+    <td>1389.60</td>
+  </tr>
+  <tr>
+    <td>Freela</td>
+    <td>Crédito</td>
+    <td>08/10/2017</td>
+    <td>750.00</td>
+    <td>2139.60</td>
+  </tr>
+  <tr>
+    <td>Cartão de Crédito</td>
+    <td>Débito</td>
+    <td>10/10/2017</td>
+    <td>-2900.00</td>
+    <td bgcolor="red">-760.40</td>
+  </tr>
+</table>
+<h2>Adicionar Nova Receita</h2>
+<p>
+<label for="descrição da receita">Descrição:
+    <textarea id="descrição da receita" name="descricao-receita" placeholder="digite a descrição da sua receita " cols="70 rows="10></textarea>
+  </label>
+</p>
+<p>
+    <label for="descrição da receita">Categoria:
+        <textarea id="descrição da categoria" name="descricao-categoria" placeholder="digite a categoria da sua receita " cols="30 rows="10></textarea>
+      </label>
+</p>
+<p>
+    <label for="descrição da receita">Data:
+        <textarea id="descrição da data" name="descricao-data" placeholder="digite a data da sua receita " cols="30 rows="10></textarea>
+      </label>
+</p>
+<p>
+    <label for="descrição da receita">Valor:
+        <textarea id="descrição da valor" name="descricao-valor" placeholder="digite o valor da sua receita " cols="30 rows="10></textarea>
+      </label>
+</p>
+<button type="button"
+>
+Adicionar</button>
+</body>
+</html>
